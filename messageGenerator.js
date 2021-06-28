@@ -16,5 +16,7 @@ function generateMessage () {
     let preposition = prepositions[Math.floor(Math.random()*prepositions.length)];
     let room = rooms[Math.floor(Math.random()*rooms.length)];
     let furniture = furnitures[Math.floor(Math.random()*furnitures.length)];
-    console.log(`${preposition} the ${room} ${furniture}`);
+    return `${preposition} the ${room} ${furniture}`;
 }
+
+console.log(generateMessage);
