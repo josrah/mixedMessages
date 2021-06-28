@@ -1,7 +1,7 @@
 # mixedMessages by Josefin Rahm
 
 ## Introduction
-Project using JavaScript in the Codecademy Full-Stack Engineer Career Path.
+Project using JavaScript in the Codecademy Full-Stack Engineer Career Path. This version answers the user where an object is with a preposition, room, and furniture.
 
 ## Overview from Codecademy
 For this project, you will build a message generator program. Every time a user 
