@@ -13,10 +13,10 @@ furnitures = ["amrchair", "bassinet", "bean bag chair", "bed", "bench", "bookshe
 
 //Function that randomizes each of the words, and puts them together to a message
 function generateMessage () {
-    let preposition = prepositions[Math.floor(Math.random()*prepositions.length)];
-    let room = rooms[Math.floor(Math.random()*rooms.length)];
-    let furniture = furnitures[Math.floor(Math.random()*furnitures.length)];
+    const preposition = prepositions[Math.floor(Math.random()*prepositions.length)];
+    const room = rooms[Math.floor(Math.random()*rooms.length)];
+    const furniture = furnitures[Math.floor(Math.random()*furnitures.length)];
     return `${preposition} the ${room} ${furniture}`;
 }
 
-console.log(generateMessage());
+console.log("Your phone is " + generateMessage());
