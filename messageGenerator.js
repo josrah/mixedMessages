@@ -19,4 +19,4 @@ function generateMessage () {
     return `${preposition} the ${room} ${furniture}`;
 }
 
-console.log(generateMessage);
+console.log(generateMessage());
